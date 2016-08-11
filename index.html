@@ -10,10 +10,11 @@
   </head>
   <body>
     <div class="container">
-    <h1> Which Trailblazer are you?</h1>
+    <h1> Which is your favorite Trailblazer?</h1>
     <form id="blazer">
       <div class="form-group">
-             <label for="pet">Favorite Pet</label>
+        <div id="pet">
+             <label for="pet">What is your Favorite Pet?</label>
              <div class="radio">
                <label>
                  <input type="radio" name="pet" value="dog" checked>
@@ -31,8 +32,22 @@
                  <input type="radio" name="pet" value="none">
                  None
                </label>
+               </div>
              </div>
+             <br><br>
+             <div class="form-group">
+                <label for="food">What is your Favorite Food?</label><br>
+                <select class="form-control" id="food">
+                  <option>Pizza</option>
+                  <option>BBQ</option>
+                  <option>Tacos</option>
+                  <option>Pad Thai</option>
+                </select>
+              </div>
+
+
            </div>
+           <br><br>
 
 
 
@@ -41,7 +56,7 @@
 
 
 
-
+      <button type="submit" class="btn">Submit Survey</button>
     </form>
 
   </div>
